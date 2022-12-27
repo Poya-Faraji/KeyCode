@@ -1,0 +1,61 @@
+/* fonts */
+@font-face {
+  font-family: "Sketching-Universe";
+  src: url(../fonts/Sketching-Universe/Sketching-Universe.otf);
+}
+@font-face {
+  font-family: "RubikBubbles-Regular";
+  src: url(../fonts/RubikBubbles-Regular/RubikBubbles-Regular.ttf);
+}
+
+/* General */
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(19, 15, 64, 1) 100%
+  );
+}
+.container {
+  height: 100%;
+}
+
+/* First page */
+h1 {
+  font-family: "RubikBubbles-Regular" !important;
+  color: rgb(4, 118, 144);
+  font-size: 45px;
+}
+
+.h1-container {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* second section */
+.KeyLogged {
+  font-family: "Sketching-Universe" !important;
+  font-size: 20em;
+  color: orange;
+  font-weight: normal;
+  text-align: center;
+}
+
+ul,
+li {
+  font-family: "Sketching-Universe" !important;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+/* section 2  */
+.section-2 {
+  display: none !important;
+}
